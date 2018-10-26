@@ -1,0 +1,126 @@
+* {
+     margin: 0;
+     padding: 0;
+ } 
+
+
+  body {
+      background-color: #ffff;
+      height: 450%;
+  }
+  
+  h1 {
+    color: #b9e1eb;
+    font-family: lana;
+    font-size: 50px;
+    padding-left: 150px;
+    padding-top: 50px;
+  }
+  
+  h2 {
+      color: #f0cfe4;
+      font-family: lana;
+      padding-left: 150px;
+      padding-top: 50px;
+  }
+  
+  a {
+    text-decoration: none;
+    }
+    
+    .themes {
+        padding-top: 10px;
+        padding-left: 150px;
+        padding-right: 150px;
+        font-family: helvetica;
+        color: #fff;
+    }
+
+  .middle {
+    margin: 0 auto;
+    overflow: hidden;
+    background-color: #5cb8d7;
+    width: 1000px;
+    height: 170%;
+    }  
+    
+  
+ nav {
+     width: 100%;
+     height: 60px;
+     background-color: #000;
+ }
+
+ nav p {
+     font-family: lana;
+     color: #ebf5f4;
+     font-size: 35px;
+     line-height: 55px;
+     float: left;
+     padding: 0px 25px;
+ }
+ 
+ nav ul {
+     float: left;
+ }
+
+ nav ul li {
+     float: left;
+     list-style: none;
+     position: relative;
+ }
+ 
+ nav ul li a {
+     display: block;
+     font-family: helvetica;
+     color: #ebf5f4;
+     font-size: 14px;
+     padding: 22px 14px;  
+     text-decoration: none;
+ }
+  
+ 
+nav ul li ul {
+    display: none;
+    position: absolute;
+    background-color: #000;
+    padding: 5px;
+    border-radius: 0px 0px 4px 4px;
+
+ }
+ 
+ nav ul li:hover ul {
+    display: block;
+ } 
+ 
+ nav ul li ul li {
+    width: 180px;
+    border-radius: 4px;
+ }  
+ 
+ nav ul li ul li a {
+    padding: 8px 14px;
+ } 
+ 
+  nav ul li ul li a:hover {
+    padding: 7px 10px;
+    background-color: #b9e1eb;
+ } 
+
+@font-face { 
+  font-family: "lana"; 
+  src:url("lana.ttf");
+ }    
+ 
+ 
+ 
+ 
+ 
+     
+img {
+    width: 400px;
+    padding-right: 50px;
+    padding-top: 20px;
+}
+
+
