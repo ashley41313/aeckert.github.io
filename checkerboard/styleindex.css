@@ -11,19 +11,19 @@
   }
     .white {
         color:#000000;
-        padding-right: 32%;
+        padding-right: 16%;
     }
     
  .whitesmall {
         color: #000000;
-        padding-right: 50px;
+        padding-right: 80px;
     }
     .black {
-        padding-left: 25%;
+        padding-left: 11%;
         color: #ffffff;
     }
     .blacksmall {
-        padding-left: 50px;
+        padding-left: 80px;
         color: #ffffff;
     }
     
